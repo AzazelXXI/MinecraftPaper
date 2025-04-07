@@ -1,54 +1,328 @@
-[00:13:08] [Server thread/INFO]: Villager Villager['Villager'/7, uuid='b73579ce-5196-48c7-9d3e-a017235fa642', l='ServerLevel[world]', x=-470.13, y=54.00, z=-752.70, cpos=[-30, -48], tl=326950, v=true] died, message: 'Villager was squished too much'
-[00:16:11] [Async Chat Thread - #42/INFO]: [Not Secure] <ISKpolar> snow village: x:10510 z:-4349
-[00:16:48] [Async Chat Thread - #42/INFO]: [Not Secure] <Tom> trade dat vcl
-[00:16:57] [Async Chat Thread - #42/INFO]: [Not Secure] <ISKpolar> m danh no ha ?
-[00:17:05] [Async Chat Thread - #42/INFO]: [Not Secure] <Tom> co dau
-[00:17:44] [Async Chat Thread - #42/INFO]: [Not Secure] <Azazel_Dev> z la re nhat r do m
-[00:17:51] [Async Chat Thread - #42/INFO]: [Not Secure] <Azazel_Dev> muon thi cho zimbie can
-[00:23:45] [Async Chat Thread - #44/INFO]: [Not Secure] <Azazel_Dev> off
-[00:23:46] [Async Chat Thread - #44/INFO]: [Not Secure] <Azazel_Dev> nha
-[00:23:49] [Async Chat Thread - #44/INFO]: [Not Secure] <Azazel_Dev> t bun ngu
-[00:23:55] [Server thread/INFO]: Azazel_Dev lost connection: Disconnected
-[00:23:55] [Server thread/INFO]: [voicechat] Disconnecting client Azazel_Dev
-[00:23:55] [Server thread/INFO]: Azazel_Dev left the game
-[00:23:59] [Server thread/INFO]: ISKpolar lost connection: Disconnected
-[00:23:59] [Server thread/INFO]: [voicechat] Disconnecting client ISKpolar
-[00:23:59] [Server thread/INFO]: ISKpolar left the game
-[00:23:59] [Server thread/INFO]: Tom lost connection: Disconnected
-[00:23:59] [Server thread/INFO]: [voicechat] Disconnecting client Tom
-[00:23:59] [Server thread/INFO]: Tom left the game
-[00:24:04] [Server thread/INFO]: Stopping the server
-[00:24:04] [Server thread/INFO]: Stopping server
-[00:24:04] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.6.1
-[00:24:04] [Server thread/INFO]: [voicechat] Disabling voicechat v2.5.27
-[00:24:04] [Server thread/INFO]: Saving players
-[00:24:04] [Server thread/INFO]: Saving worlds
-[00:24:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[00:24:04] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[00:24:04] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[00:24:04] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[00:24:06] [Server thread/INFO]: [ChunkHolderManager] Saved 1766 block chunks, 1068 entity chunks, 23 poi chunks in world 'world' in 1.19s
-[00:24:06] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[00:24:06] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[00:24:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[00:24:06] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[00:24:06] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[00:24:06] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[00:24:06] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 7 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
-[00:24:06] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[00:24:06] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[00:24:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[00:24:06] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[00:24:06] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[00:24:06] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[00:24:06] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[00:24:06] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[00:24:06] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[00:24:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[00:24:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[00:24:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[00:24:06] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[00:24:06] [Server thread/INFO]: Waiting for I/O tasks to complete...
-[00:24:06] [Server thread/INFO]: All I/O tasks to complete
-[00:24:06] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[00:24:06] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[12:19:58] [ServerMain/INFO]: [bootstrap] Running Java 21 (Java HotSpot(TM) 64-Bit Server VM 21.0.5+9-LTS-239; Oracle Corporation null) on Windows 11 10.0 (amd64)
+[12:19:58] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-138-main@5395ae3 (2025-02-02T21:42:11Z) for Minecraft 1.21.4
+[12:20:00] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[12:20:01] [ServerMain/INFO]: [PluginInitializerManager] Initialized 2 plugins
+[12:20:01] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (2):
+ - SkinsRestorer (15.6.1), voicechat (2.5.27)
+[12:20:07] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[12:20:07] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[12:20:08] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 463.1ms
+[12:20:10] [ServerMain/INFO]: Loaded 1370 recipes
+[12:20:10] [ServerMain/INFO]: Loaded 1481 advancements
+[12:20:10] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[12:20:10] [Server thread/INFO]: Loading properties
+[12:20:10] [Server thread/INFO]: This server is running Paper version 1.21.4-138-main@5395ae3 (2025-02-02T21:42:11Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
+[12:20:10] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[12:20:10] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:20:10] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:20:11] [Server thread/INFO]: [MoonriseCommon] Paper is using 4 worker threads, 1 I/O threads
+[12:20:11] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[12:20:11] [Server thread/INFO]: Default game type: SURVIVAL
+[12:20:11] [Server thread/INFO]: Generating keypair
+[12:20:11] [Server thread/INFO]: Starting Minecraft server on *:24454
+[12:20:11] [Server thread/INFO]: Using default channel type
+[12:20:11] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[12:20:11] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[12:20:12] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.5.27
+[12:20:12] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.1
+[12:20:12] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:20:12] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.1
+[12:20:13] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[12:20:14] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.4.
+[12:20:14] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[12:20:14] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12:20:14] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[12:20:14] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[12:20:14] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[12:20:14] [Server thread/INFO]: Preparing level "world"
+[12:20:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[12:20:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[12:20:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[12:20:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[12:20:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[12:20:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[12:20:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[12:20:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.6.1
+[12:20:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 8687003
+[12:20:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[12:20:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[12:20:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[12:20:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[12:20:15] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[12:20:15] [Server thread/INFO]: Preparing spawn area: 0%
+[12:20:16] [Server thread/INFO]: Preparing spawn area: 0%
+[12:20:16] [Server thread/INFO]: Preparing spawn area: 0%
+[12:20:17] [Server thread/INFO]: Preparing spawn area: 0%
+[12:20:17] [Server thread/INFO]: Time elapsed: 1517 ms
+[12:20:17] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[12:20:17] [Server thread/INFO]: Preparing spawn area: 0%
+[12:20:17] [Server thread/INFO]: Time elapsed: 139 ms
+[12:20:17] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[12:20:17] [Server thread/INFO]: Preparing spawn area: 0%
+[12:20:17] [Server thread/INFO]: Time elapsed: 49 ms
+[12:20:17] [Server thread/INFO]: [voicechat] Enabling voicechat v2.5.27
+[12:20:17] [Server thread/INFO]: [voicechat] Initializing compatibility for Bukkit version 1.21.4-R0.1
+[12:20:17] [Server thread/INFO]: [voicechat] Compatibility version 18
+[12:20:17] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
+[12:20:17] [Server thread/INFO]: [spark] Starting background profiler...
+[12:20:17] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[12:20:17] [Server thread/INFO]: Done preparing level "world" (3.070s)
+[12:20:17] [Server thread/INFO]: Running delayed init tasks
+[12:20:17] [Server thread/INFO]: Done (20.647s)! For help, type "help"
+[12:20:17] [Server thread/INFO]: [voicechat] Loading plugins
+[12:20:17] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
+[12:20:17] [Server thread/INFO]: [voicechat] Initializing plugins
+[12:20:17] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
+[12:20:17] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[12:20:18] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
+[12:51:58] [User Authenticator #0/INFO]: UUID of player Tom is bf0eed7b-69fa-3e8f-8083-8eb7d4a7512d
+[12:51:58] [Server thread/INFO]: Tom joined the game
+[12:51:58] [Server thread/INFO]: Tom[/26.196.218.69:58472] logged in with entity id 108 at ([world]-453.8557327120644, 63.0, -678.480673111276)
+[13:33:43] [User Authenticator #1/INFO]: UUID of player Azazel_Dev is b56159c6-1114-3f83-924d-84b90c5cf51f
+[13:33:44] [Server thread/INFO]: Azazel_Dev joined the game
+[13:33:44] [Server thread/INFO]: Azazel_Dev[/127.0.0.1:51991] logged in with entity id 13725 at ([world]-324.9489423524009, 88.5, -929.9758164293954)
+[13:33:59] [Async Chat Thread - #1/INFO]: [Not Secure] <Tom> ckao eim
+[13:34:08] [Async Chat Thread - #1/INFO]: [Not Secure] <Azazel_Dev> men
+[13:34:11] [Async Chat Thread - #1/INFO]: [Not Secure] <Azazel_Dev> sounds gay
+[13:34:31] [Server thread/INFO]: Villager Villager['Villager'/30, uuid='054ad69f-7dcd-4b65-b47b-ddedabe25548', l='ServerLevel[world]', x=-470.19, y=54.00, z=-752.37, cpos=[-30, -48], tl=227300, v=true] died, message: 'Villager was squished too much'
+[13:34:39] [Server thread/INFO]: Villager Villager['Villager'/659, uuid='89f6f40e-b4af-4e46-a55c-b3a45eb25476', l='ServerLevel[world]', x=-470.11, y=54.00, z=-752.30, cpos=[-30, -48], tl=29517, v=true] died, message: 'Villager was squished too much'
+[13:34:57] [Server thread/INFO]: Villager Villager['Villager'/7, uuid='9c956c70-7e8b-4198-a709-3e9fdc7fe9f4', l='ServerLevel[world]', x=-470.14, y=54.00, z=-752.44, cpos=[-30, -48], tl=367171, v=true] died, message: 'Villager was squished too much'
+[13:35:11] [Async Chat Thread - #1/INFO]: [Not Secure] <Tom> bản này có cái biome mới chưa m
+[13:35:22] [Async Chat Thread - #1/INFO]: [Not Secure] <Azazel_Dev> biome màu xám hả
+[13:35:27] [Async Chat Thread - #1/INFO]: [Not Secure] <Tom> dung r
+[13:35:29] [Async Chat Thread - #1/INFO]: [Not Secure] <Azazel_Dev> co r a
+[13:37:18] [Async Chat Thread - #2/INFO]: [Not Secure] <Tom> m cần slime k
+[13:37:22] [Async Chat Thread - #2/INFO]: [Not Secure] <Azazel_Dev> cần
+[13:37:32] [Async Chat Thread - #2/INFO]: [Not Secure] <Azazel_Dev> mà sau này thôi chứ hiện tại t chưa tính tới
+[13:37:39] [Async Chat Thread - #2/INFO]: [Not Secure] <Azazel_Dev> tại chưa xài piston dính lắm
+[13:37:42] [Server thread/INFO]: Villager Villager['Villager'/19, uuid='fa87e994-79bb-434e-b9f6-68bc8d0b08d9', l='ServerLevel[world]', x=-470.12, y=54.00, z=-752.57, cpos=[-30, -48], tl=370484, v=true] died, message: 'Villager was squished too much'
+[13:37:53] [Async Chat Thread - #2/INFO]: [Not Secure] <Azazel_Dev> dây thì lâu lâu kiếm mấy th trader t xẻo t có dây xài :))
+[13:38:04] [Server thread/INFO]: Villager Villager['Villager'/15, uuid='b65e833a-6320-486c-945a-09f86847bb73', l='ServerLevel[world]', x=-470.12, y=54.00, z=-752.44, cpos=[-30, -48], tl=370926, v=true] died, message: 'Villager was squished too much'
+[13:38:26] [Async Chat Thread - #2/INFO]: [Not Secure] <Tom> Ác (((=
+[13:38:42] [Async Chat Thread - #2/INFO]: [Not Secure] <Tom> h m xây máy farm à
+[13:39:02] [Async Chat Thread - #2/INFO]: [Not Secure] <Azazel_Dev> t làm nốt cái lava house cái rồi t đi chuẩn bị đồ lên cái nóc địa ngục
+[13:39:10] [Async Chat Thread - #2/INFO]: [Not Secure] <Azazel_Dev> làm cái farm vàng ở trển
+[13:40:09] [Async Chat Thread - #2/INFO]: [Not Secure] <Tom> v t đi tìm vàng làm đường ray thêm v
+[13:40:45] [Async Chat Thread - #2/INFO]: [Not Secure] <Tom> Có mấy đường ray lười chạy bộ hẳn
+[13:40:55] [Async Chat Thread - #2/INFO]: [Not Secure] <Azazel_Dev> :))
+[13:41:03] [Async Chat Thread - #2/INFO]: [Not Secure] <Azazel_Dev> mốt có cánh thì làm cái tên lửa còn lười :)))
+[13:41:33] [Async Chat Thread - #2/INFO]: [Not Secure] <Tom> Cánh world này đen sao khó kiếm vcl
+[13:43:07] [Async Chat Thread - #4/INFO]: [Not Secure] <Azazel_Dev> ko sao
+[13:43:09] [Async Chat Thread - #4/INFO]: [Not Secure] <Azazel_Dev> mot kiem lai
+[13:45:25] [Async Chat Thread - #6/INFO]: [Not Secure] <Azazel_Dev> làm cái nhà lava cỡ này
+[13:45:34] [Async Chat Thread - #6/INFO]: [Not Secure] <Azazel_Dev> mà 5 th bào nó yếu nữa thì t thua
+[13:45:51] [Async Chat Thread - #6/INFO]: [Not Secure] <Tom> (((=
+[13:45:57] [Async Chat Thread - #6/INFO]: [Not Secure] <Azazel_Dev> công xuất phải bằng 88 cái xô
+[13:45:57] [Async Chat Thread - #6/INFO]: [Not Secure] <Tom> nhu7 cái lò thiêu
+[13:46:13] [Async Chat Thread - #6/INFO]: [Not Secure] <Azazel_Dev> af ddr
+[13:46:16] [Async Chat Thread - #6/INFO]: [Not Secure] <Azazel_Dev> cái farm mobs
+[13:46:22] [Async Chat Thread - #6/INFO]: [Not Secure] <Azazel_Dev> bản này bọn nó sửa lại r
+[13:46:28] [Async Chat Thread - #6/INFO]: [Not Secure] <Azazel_Dev> thành ra máy fảm mob thường
+[13:46:32] [Async Chat Thread - #6/INFO]: [Not Secure] <Azazel_Dev> chỉ xài đc buổi tối
+[13:46:43] [Async Chat Thread - #6/INFO]: [Not Secure] <Azazel_Dev> cái chỗ trên tít cao kìa giờ nó chỉ là trại tập trung cho bọn kia :)))
+[13:47:01] [Async Chat Thread - #6/INFO]: [Not Secure] <Azazel_Dev> thay vì đi lòng vòng kiếm thì giờ cái máy farm đó thành trại tập trung
+[13:47:08] [Async Chat Thread - #6/INFO]: [Not Secure] <Tom> t hiếm farm mob vcl chủ yếu farm exp sửa lại đồ
+[13:47:13] [Async Chat Thread - #6/INFO]: [Not Secure] <Azazel_Dev> chứ ko hoạt động như mấy bản khác là đêm ngày đều đc
+[13:47:25] [Async Chat Thread - #6/INFO]: [Not Secure] <Azazel_Dev> t xài đổi emerald với dành nguyên liệu mốt đi làm mấy farm
+[13:47:31] [Async Chat Thread - #6/INFO]: [Not Secure] <Azazel_Dev> chứ sv có mấy cha bào vương
+[13:47:44] [Async Chat Thread - #6/INFO]: [Not Secure] <Azazel_Dev> t xài lấy nguyên liệu nạp như nạp pin
+[13:48:12] [Async Chat Thread - #7/INFO]: [Not Secure] <Azazel_Dev> máy farm đá làm 2 người farm
+[13:48:18] [Async Chat Thread - #7/INFO]: [Not Secure] <Azazel_Dev> maf giờ nó yếu vl yếu
+[13:48:25] [Async Chat Thread - #7/INFO]: [Not Secure] <Azazel_Dev> mốt t phải update lên nữa
+[13:48:58] [Async Chat Thread - #7/INFO]: [Not Secure] <Azazel_Dev> đợt m off m ko biết
+[13:49:08] [Async Chat Thread - #7/INFO]: [Not Secure] <Azazel_Dev> chứ đợt t cọc Hào vì vụ máy farm :)))
+[13:49:37] [Async Chat Thread - #7/INFO]: [Not Secure] <Tom> Máy farm nào m
+[13:49:43] [Async Chat Thread - #7/INFO]: [Not Secure] <Azazel_Dev> mays famr sat
+[13:49:47] [Async Chat Thread - #7/INFO]: [Not Secure] <Azazel_Dev> đợt ảnh mới làm cái đảo
+[13:49:51] [Async Chat Thread - #7/INFO]: [Not Secure] <Azazel_Dev> ảnh ko cắm đuốc
+[13:49:58] [Async Chat Thread - #7/INFO]: [Not Secure] <Azazel_Dev> ảnh lấy sạch sắt đi làm iron golem
+[13:50:06] [Async Chat Thread - #7/INFO]: [Not Secure] <Azazel_Dev> t cần xài để làm đồ éo có tí nào
+[13:50:09] [Async Chat Thread - #7/INFO]: [Not Secure] <Azazel_Dev> xong ảnh cứ than
+[13:50:27] [Async Chat Thread - #7/INFO]: [Not Secure] <Azazel_Dev> t bực xong t chửi mẹ làm cac gì cứ đi vài block lạ 3-4 con iron golem r cống sắt đi sửa
+[13:51:08] [Async Chat Thread - #7/INFO]: [Not Secure] <Azazel_Dev> lúc đó khứa đốt tiền (emerald) t kiếm được vô gacha bọn dân làng
+[13:51:14] [Async Chat Thread - #7/INFO]: [Not Secure] <Azazel_Dev> ga cha bọn tools ấy
+[13:51:20] [Async Chat Thread - #7/INFO]: [Not Secure] <Azazel_Dev> con nào ngon thì dữ ko thì cho cút
+[13:51:26] [Async Chat Thread - #7/INFO]: [Not Secure] <Azazel_Dev> t kiếm đâu đó 3-4 stacks
+[13:51:30] [Async Chat Thread - #7/INFO]: [Not Secure] <Azazel_Dev> ảnh đốt nhẹ trong 10p
+[13:52:03] [Async Chat Thread - #7/INFO]: [Not Secure] <Tom> hen2 gi t qua đảo thấy đi tí 5 6con golem (((=
+[13:52:16] [Async Chat Thread - #7/INFO]: [Not Secure] <Azazel_Dev> farm sat nó kiệt quệ luôn mà
+[13:52:34] [Async Chat Thread - #7/INFO]: [Not Secure] <Azazel_Dev> nên giờ t đang plan nâng cấp max mấy cái máy farm luôn
+[13:53:38] [Async Chat Thread - #8/INFO]: [Not Secure] <Tom> Hên t làm mỗi máy farm exp (((=
+[13:54:29] [Async Chat Thread - #8/INFO]: [Not Secure] <Azazel_Dev> cái máy farm exp m mốt t xuống t sửa thêm cái nhận đồ ở dưới
+[13:54:41] [Async Chat Thread - #8/INFO]: [Not Secure] <Azazel_Dev> có gì farm full rương dưới đó nó đốt bớt đồ bị trào ra
+[13:54:52] [Async Chat Thread - #9/INFO]: [Not Secure] <Azazel_Dev> để hạn chế đầy dung lượng sv :))
+[13:55:28] [Async Chat Thread - #9/INFO]: [Not Secure] <Tom> Đợt đó t lười về lấy quá nên th làm đại (((= có gi t vứt đồ xuống the void
+[13:55:40] [Async Chat Thread - #9/INFO]: [Not Secure] <Tom> t sợ t ngu ngu t té the void nữa (((=
+[13:55:44] [Async Chat Thread - #9/INFO]: [Not Secure] <Azazel_Dev> :)))
+[14:00:08] [Async Chat Thread - #10/INFO]: [Not Secure] <Tom> biome mới khó kiếm v
+[14:00:18] [Async Chat Thread - #10/INFO]: [Not Secure] <Azazel_Dev> hiếm phết á
+[14:00:32] [Async Chat Thread - #10/INFO]: [Not Secure] <Azazel_Dev> nghe bảo nó nằm tỏng
+[14:00:35] [Async Chat Thread - #10/INFO]: [Not Secure] <Azazel_Dev> mấy cái rừng thông
+[14:01:20] [Async Chat Thread - #10/INFO]: [Not Secure] <Azazel_Dev> éo gì mưa hoài
+[14:01:37] [Async Chat Thread - #10/INFO]: [Not Secure] <Tom> t đi tới 1k5 vs 2k r mà k thấy
+[14:01:51] [Async Chat Thread - #10/INFO]: [Not Secure] <Azazel_Dev> đi tới 10 mấy k thử xem :)))
+[14:02:00] [Async Chat Thread - #10/INFO]: [Not Secure] <Azazel_Dev> đợt bọn t mò đi xa vcl xa
+[14:02:22] [Async Chat Thread - #11/INFO]: [Not Secure] <Tom> bo5n m chạy bộ về à
+[14:02:31] [Async Chat Thread - #12/INFO]: [Not Secure] <Azazel_Dev> đr
+[14:02:36] [Async Chat Thread - #12/INFO]: [Not Secure] <Azazel_Dev> mang ngựa theo vướng
+[14:03:23] [User Authenticator #2/INFO]: UUID of player Fireman6536 is b7d4297b-8fa4-3c98-8492-92bf719b9038
+[14:03:24] [Server thread/INFO]: Fireman6536 joined the game
+[14:03:24] [Server thread/INFO]: Fireman6536[/26.12.185.208:65255] logged in with entity id 34496 at ([world]-547.4604727295728, 86.0, -712.537873343374)
+[14:04:03] [Async Chat Thread - #13/INFO]: [Not Secure] <Tom> Này mà đi bộ về là ói
+[14:04:16] [Async Chat Thread - #13/INFO]: [Not Secure] <Azazel_Dev> mà đi nhớ cầm theo cái thuyền
+[14:04:21] [Async Chat Thread - #13/INFO]: [Not Secure] <Azazel_Dev> tại đ aphanaf đi biển koa f
+[14:04:30] [Async Chat Thread - #13/INFO]: [Not Secure] <Azazel_Dev> mẹ đợt đi về t bắt được chó với mèo
+[14:04:37] [Async Chat Thread - #13/INFO]: [Not Secure] <Azazel_Dev> bắt 8 con về còn 2 con
+[14:04:43] [Async Chat Thread - #13/INFO]: [Not Secure] <Azazel_Dev> djt me t sợ rớt 2 hòn
+[14:04:50] [Async Chat Thread - #13/INFO]: [Not Secure] <Azazel_Dev> xách đít đi 5-6k blocks đi kiếm
+[14:04:58] [Async Chat Thread - #13/INFO]: [Not Secure] <Azazel_Dev> may kiếm được nó kẹt ở gần đảo nhà
+[14:05:46] [Server thread/INFO]: Azazel_Dev burned to death
+[14:05:50] [Async Chat Thread - #13/INFO]: [Not Secure] <Tom> F
+[14:05:54] [Async Chat Thread - #13/INFO]: [Not Secure] <Azazel_Dev> tai nan that
+[14:06:01] [Async Chat Thread - #13/INFO]: [Not Secure] <Tom> -1 set kim cuong
+[14:06:07] [Async Chat Thread - #13/INFO]: [Not Secure] <Azazel_Dev> ko sao
+[14:06:11] [Async Chat Thread - #13/INFO]: [Not Secure] <Azazel_Dev> chet ngay goc
+[14:06:22] [Async Chat Thread - #13/INFO]: [Not Secure] <Azazel_Dev> trước khi làm cái này t tính chỗ chết r :)))
+[14:06:29] [Async Chat Thread - #13/INFO]: [Not Secure] <Azazel_Dev> lo mất đống tools
+[14:06:32] [Async Chat Thread - #13/INFO]: [Not Secure] <Azazel_Dev> chứ giáp vứt
+[14:06:50] [Async Chat Thread - #13/INFO]: [Not Secure] <Tom> m đang dưới nether à
+[14:06:56] [Async Chat Thread - #13/INFO]: [Not Secure] <Azazel_Dev> nether nhà làm
+[14:07:06] [Async Chat Thread - #13/INFO]: [Not Secure] <Tom> (((=
+[14:07:28] [Async Chat Thread - #13/INFO]: [Not Secure] <Azazel_Dev> t rào lava lại để canh ở cổng 4 phía
+[14:07:31] [Async Chat Thread - #13/INFO]: [Not Secure] <Azazel_Dev> xong đi lùi ko để ý
+[14:07:35] [Async Chat Thread - #13/INFO]: [Not Secure] <Azazel_Dev> chỉa đít vô lava
+[14:08:31] [Async Chat Thread - #13/INFO]: [Not Secure] <Tom> hot ass
+[14:08:45] [Async Chat Thread - #13/INFO]: [Not Secure] <Azazel_Dev> mẹ giờ 1 lần múc ở đây 64 lava
+[14:08:51] [Async Chat Thread - #13/INFO]: [Not Secure] <Azazel_Dev> th nào kêu thiếu nữa xuống địa ngục múc
+[14:09:00] [Async Chat Thread - #13/INFO]: [Not Secure] <Tom> Có bắt cá heo về đc k nhỉ
+[14:09:09] [Async Chat Thread - #13/INFO]: [Not Secure] <Azazel_Dev> dc
+[14:09:11] [Async Chat Thread - #13/INFO]: [Not Secure] <Azazel_Dev> dung day
+[14:09:26] [Async Chat Thread - #13/INFO]: [Not Secure] <Tom> vcl
+[14:09:38] [Async Chat Thread - #13/INFO]: [Not Secure] <Tom> giữa biển đào đâu ra dây h
+[14:12:30] [Async Chat Thread - #15/INFO]: [Not Secure] <Tom> k lẽ vác dái về tay k tr. It1 nhất cũng tìm thấy biển ấm chứ
+[14:13:03] [Async Chat Thread - #15/INFO]: [Not Secure] <Azazel_Dev> ừa nhắc mới nhớ
+[14:13:09] [Async Chat Thread - #15/INFO]: [Not Secure] <Azazel_Dev> t chưa thấy biển ấm trong sv này
+[14:14:39] [Async Chat Thread - #17/INFO]: [Not Secure] <Tom> đen sao sao (((=
+[14:14:58] [Async Chat Thread - #17/INFO]: [Not Secure] <Azazel_Dev> di bao xa r
+[14:15:02] [Async Chat Thread - #17/INFO]: [Not Secure] <Tom> end city k thấy. Biển ấm k thấy. Hang tươi tốt cũng k
+[14:15:10] [Async Chat Thread - #17/INFO]: [Not Secure] <Tom> 1k2 vs 2k3
+[14:17:28] [Async Chat Thread - #19/INFO]: [Not Secure] <Azazel_Dev> thống kê trung bình trong sv này toàn chết vì xàm
+[14:17:33] [Async Chat Thread - #19/INFO]: [Not Secure] <Azazel_Dev> chứ éo chết vì quái nhiều
+[14:17:44] [Async Chat Thread - #19/INFO]: [Not Secure] <Azazel_Dev> số lượng chết vì quái éo đc 1/10 chết xàm
+[14:18:13] [Async Chat Thread - #19/INFO]: [Not Secure] <Tom> Có t vs m trong số đó đó (((=
+[14:18:16] [Async Chat Thread - #19/INFO]: [Not Secure] <Azazel_Dev> :)))
+[14:19:19] [Async Chat Thread - #21/INFO]: [Not Secure] <Tom> Để lấ tuyết về làm con snowman đỡ buồn
+[14:19:39] [Async Chat Thread - #21/INFO]: [Not Secure] <Azazel_Dev> chỗ khu của Hào có nguyên cái kỉ băng ở đó đó
+[14:19:45] [Async Chat Thread - #22/INFO]: [Not Secure] <Azazel_Dev> ra đó lấy bao nhiêu tuỳ thích :))
+[14:29:33] [Async Chat Thread - #23/INFO]: [Not Secure] <Azazel_Dev> t tính sửa data game 1 tí
+[14:29:37] [Async Chat Thread - #23/INFO]: [Not Secure] <Azazel_Dev> cho nó bơtes phí vài cái
+[14:29:48] [Async Chat Thread - #24/INFO]: [Not Secure] <Azazel_Dev> như thịt zome t tính sửa lại cho nó đem nung thhif ra được gia thuộc
+[14:29:55] [Async Chat Thread - #23/INFO]: [Not Secure] <Azazel_Dev> da thuộc
+[14:29:59] [Async Chat Thread - #23/INFO]: [Not Secure] <Tom> wtf
+[14:30:11] [Async Chat Thread - #23/INFO]: [Not Secure] <Azazel_Dev> nhớ đợt có cái mod nào nó làm đc cái đó
+[14:30:20] [Async Chat Thread - #23/INFO]: [Not Secure] <Azazel_Dev> mà t lười mod qá nên t tính sửa thẳng vô đây bằng cmd
+[14:31:32] [Async Chat Thread - #25/INFO]: [Not Secure] <Tom> Cảm giác giống kiểu t đi 1 vòng tròn vcl
+[14:32:57] [Async Chat Thread - #27/INFO]: [Not Secure] <Azazel_Dev> :))
+[14:32:58] [Async Chat Thread - #27/INFO]: [Not Secure] <Azazel_Dev> sao do
+[14:33:26] [Async Chat Thread - #27/INFO]: [Not Secure] <Tom> Có nhiêu đó biome. K có gi mới từ nãy h
+[14:33:57] [Server thread/INFO]: Villager Villager['Villager'/39744, uuid='265f0052-9f48-443d-a7ca-dc9a72c8c46f', l='ServerLevel[world]', x=-470.10, y=54.00, z=-752.30, cpos=[-30, -48], tl=26340, v=true] died, message: 'Villager was squished too much'
+[14:36:06] [Async Chat Thread - #29/INFO]: [Not Secure] <Fireman6536> open eyeblossom
+[14:42:42] [Async Chat Thread - #31/INFO]: [Not Secure] <Tom> nha2 toa độ nhieeu v m
+[14:43:11] [Async Chat Thread - #31/INFO]: [Not Secure] <Fireman6536> -526
+[14:43:18] [Async Chat Thread - #31/INFO]: [Not Secure] <Fireman6536> 82
+[14:43:20] [Async Chat Thread - #31/INFO]: [Not Secure] <Azazel_Dev> -400 -700
+[14:44:10] [Async Chat Thread - #31/INFO]: [Not Secure] <Tom> xa thế
+[14:44:18] [Async Chat Thread - #31/INFO]: [Not Secure] <Azazel_Dev> :))
+[14:45:08] [Async Chat Thread - #31/INFO]: [Not Secure] <Tom> chac phai di kiem cánh
+[14:57:47] [Async Chat Thread - #33/INFO]: [Not Secure] <Tom> Má thấy đuốc sáng hạnh phúc vcl
+[15:02:30] [Server thread/WARN]: Fireman6536 moved too quickly! 4.426002069086735,7.5,-7.310388159802756
+[15:02:35] [Server thread/INFO]: Villager Villager['Villager'/45347, uuid='a9920af9-aef7-4b76-ad34-20711b637d0e', l='ServerLevel[world]', x=-470.11, y=54.00, z=-752.70, cpos=[-30, -48], tl=45637, v=true] died, message: 'Villager was squished too much'
+[15:10:25] [Server thread/INFO]: Villager Villager['Villager'/13465, uuid='ff07d095-4dbd-440c-bafb-6bb6185be941', l='ServerLevel[world]', x=-470.14, y=54.00, z=-752.70, cpos=[-30, -48], tl=118022, v=true] died, message: 'Villager was squished too much'
+[15:12:06] [Async Chat Thread - #35/INFO]: [Not Secure] <Tom> ủa trung
+[15:12:08] [Async Chat Thread - #35/INFO]: [Not Secure] <Azazel_Dev> huh
+[15:12:28] [Async Chat Thread - #35/INFO]: [Not Secure] <Tom> Mấy cái đường ray gần nhà t m còn dùng k v
+[15:12:39] [Async Chat Thread - #35/INFO]: [Not Secure] <Azazel_Dev> hình như cái đó của trh Hào á
+[15:12:45] [Async Chat Thread - #35/INFO]: [Not Secure] <Azazel_Dev> t ko đụng t cx ko rõ nữa
+[15:12:56] [Async Chat Thread - #35/INFO]: [Not Secure] <Tom> Đường ray xuog cái máy đẻ của m mà
+[15:13:05] [Async Chat Thread - #35/INFO]: [Not Secure] <Azazel_Dev> nhưng đường ray là th hào nối á :v
+[15:13:07] [Async Chat Thread - #35/INFO]: [Not Secure] <Azazel_Dev> đợt t dọn r
+[15:13:14] [Async Chat Thread - #35/INFO]: [Not Secure] <Azazel_Dev> mà chắc còn thì lấy đi
+[15:13:18] [Async Chat Thread - #35/INFO]: [Not Secure] <Azazel_Dev> chừa lại cho th cu
+[15:14:00] [Async Chat Thread - #35/INFO]: [Not Secure] <Tom> V t đi mine vàng làm đường ray xuống khu farm exp v. H lười chạy quá
+[15:21:48] [Server thread/INFO]: Villager Villager['Villager'/70380, uuid='8f72438e-7278-4b05-a33b-93bd112372cb', l='ServerLevel[world]', x=-470.16, y=54.00, z=-752.70, cpos=[-30, -48], tl=35678, v=true] died, message: 'Villager was squished too much'
+[15:22:51] [Async Chat Thread - #37/INFO]: [Not Secure] <Tom> trungg
+[15:22:55] [Async Chat Thread - #37/INFO]: [Not Secure] <Azazel_Dev> gi m
+[15:23:10] [Async Chat Thread - #37/INFO]: [Not Secure] <Azazel_Dev> sao m
+[15:23:12] [Async Chat Thread - #37/INFO]: [Not Secure] <Tom> m biết chuyển dữ liệu như danh bạ đồ từ máy này sang máy khác k
+[15:23:28] [Async Chat Thread - #37/INFO]: [Not Secure] <Azazel_Dev> khum :3
+[15:23:46] [Async Chat Thread - #37/INFO]: [Not Secure] <Azazel_Dev> thẻ nhớ lắp máy này sang máy khác
+[15:23:47] [Async Chat Thread - #37/INFO]: [Not Secure] <Azazel_Dev> được ko
+[15:24:40] [Async Chat Thread - #37/INFO]: [Not Secure] <Tom> lu7u ở đt k lưu ở thẻ
+[15:34:34] [Server thread/INFO]: Fireman6536 fell from a high place
+[15:34:39] [Async Chat Thread - #39/INFO]: [Not Secure] <Azazel_Dev> ??
+[15:34:42] [Async Chat Thread - #39/INFO]: [Not Secure] <Azazel_Dev> thau
+[15:34:43] [Async Chat Thread - #39/INFO]: [Not Secure] <Azazel_Dev> thua
+[15:35:27] [Server thread/INFO]: Tom lost connection: Disconnected
+[15:35:27] [Server thread/INFO]: [voicechat] Disconnecting client Tom
+[15:35:27] [Server thread/INFO]: Tom left the game
+[15:40:47] [User Authenticator #3/INFO]: UUID of player Tom is bf0eed7b-69fa-3e8f-8083-8eb7d4a7512d
+[15:40:48] [Server thread/INFO]: Tom joined the game
+[15:40:48] [Server thread/INFO]: Tom[/26.196.218.69:52085] logged in with entity id 88391 at ([world]-200.5622796945647, 7.0, -901.6999999880791)
+[15:40:55] [Async Chat Thread - #41/INFO]: [Not Secure] <Tom> afk bị kick à
+[15:40:58] [Async Chat Thread - #41/INFO]: [Not Secure] <Azazel_Dev> co dau ;v
+[15:41:05] [Async Chat Thread - #41/INFO]: [Not Secure] <Tom> da fuq
+[15:41:14] [Async Chat Thread - #41/INFO]: [Not Secure] <Fireman6536> server moi cap nhat ma ong
+[15:41:21] [Async Chat Thread - #41/INFO]: [Not Secure] <Azazel_Dev> Xo
+[15:41:22] [Async Chat Thread - #41/INFO]: [Not Secure] <Fireman6536> thang nao gay bi kick
+[15:41:28] [Async Chat Thread - #41/INFO]: [Not Secure] <Azazel_Dev> VIPP
+[15:41:31] [Async Chat Thread - #41/INFO]: [Not Secure] <Tom> uwU
+[15:41:35] [Async Chat Thread - #41/INFO]: [Not Secure] <Fireman6536> :DD
+[15:41:38] [Async Chat Thread - #41/INFO]: [Not Secure] <Azazel_Dev> ???:D??
+[15:47:10] [Async Chat Thread - #43/INFO]: [Not Secure] <Azazel_Dev> t off nha
+[15:47:12] [Async Chat Thread - #43/INFO]: [Not Secure] <Azazel_Dev> tối t mở lại
+[15:47:15] [Async Chat Thread - #43/INFO]: [Not Secure] <Tom> oke
+[15:47:16] [Async Chat Thread - #43/INFO]: [Not Secure] <Azazel_Dev> tắt máy cho nó ngụi tí
+[15:47:20] [Async Chat Thread - #43/INFO]: [Not Secure] <Azazel_Dev> tối t mở
+[15:47:26] [Server thread/INFO]: Azazel_Dev lost connection: Disconnected
+[15:47:26] [Server thread/INFO]: [voicechat] Disconnecting client Azazel_Dev
+[15:47:26] [Server thread/INFO]: Azazel_Dev left the game
+[15:47:29] [Server thread/INFO]: Tom lost connection: Disconnected
+[15:47:29] [Server thread/INFO]: [voicechat] Disconnecting client Tom
+[15:47:29] [Server thread/INFO]: Tom left the game
+[15:47:47] [Server thread/INFO]: Stopping the server
+[15:47:47] [Server thread/INFO]: Stopping server
+[15:47:47] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.6.1
+[15:47:47] [Server thread/INFO]: [voicechat] Disabling voicechat v2.5.27
+[15:47:47] [Server thread/INFO]: Saving players
+[15:47:47] [Server thread/INFO]: Fireman6536 lost connection: Server closed
+[15:47:47] [Server thread/INFO]: Fireman6536 left the game
+[15:47:48] [Server thread/INFO]: Saving worlds
+[15:47:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[15:47:48] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[15:47:48] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[15:47:48] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[15:47:48] [Server thread/INFO]: [ChunkHolderManager] Saved 77 block chunks, 325 entity chunks, 2 poi chunks in world 'world' in 0.21s
+[15:47:48] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[15:47:48] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[15:47:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[15:47:48] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[15:47:48] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[15:47:48] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[15:47:48] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 7 entity chunks, 0 poi chunks in world 'world_nether' in 0.02s
+[15:47:48] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[15:47:48] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[15:47:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[15:47:48] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[15:47:48] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[15:47:48] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[15:47:48] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[15:47:48] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[15:47:48] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[15:47:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[15:47:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:47:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:47:48] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[15:47:48] [Server thread/INFO]: Waiting for I/O tasks to complete...
+[15:47:48] [Server thread/INFO]: All I/O tasks to complete
+[15:47:48] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[15:47:48] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
