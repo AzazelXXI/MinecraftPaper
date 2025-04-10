@@ -1,184 +1,47 @@
-[12:18:00] [ServerMain/INFO]: [bootstrap] Running Java 21 (Java HotSpot(TM) 64-Bit Server VM 21.0.5+9-LTS-239; Oracle Corporation null) on Windows 11 10.0 (amd64)
-[12:18:00] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-138-main@5395ae3 (2025-02-02T21:42:11Z) for Minecraft 1.21.4
-[12:18:02] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[12:18:03] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
-[12:18:03] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
- - Chunky (1.4.36), SkinsRestorer (15.6.1), voicechat (2.5.27)
-[12:18:09] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[12:18:09] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
-[12:18:10] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 443.0ms
-[12:18:12] [ServerMain/INFO]: Loaded 1370 recipes
-[12:18:12] [ServerMain/INFO]: Loaded 1481 advancements
-[12:18:12] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[12:18:12] [Server thread/INFO]: Loading properties
-[12:18:12] [Server thread/INFO]: This server is running Paper version 1.21.4-138-main@5395ae3 (2025-02-02T21:42:11Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
-[12:18:13] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[12:18:13] [Server thread/INFO]: Using 4 threads for Netty based IO
-[12:18:13] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[12:18:14] [Server thread/INFO]: [MoonriseCommon] Paper is using 4 worker threads, 1 I/O threads
-[12:18:14] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[12:18:14] [Server thread/INFO]: Default game type: SURVIVAL
-[12:18:14] [Server thread/INFO]: Generating keypair
-[12:18:14] [Server thread/INFO]: Starting Minecraft server on *:24454
-[12:18:14] [Server thread/INFO]: Using default channel type
-[12:18:14] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[12:18:14] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[12:18:14] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.5.27
-[12:18:14] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.1
-[12:18:14] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.36
-[12:18:14] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[12:18:14] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.1
-[12:18:15] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
-[12:18:16] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.4.
-[12:18:17] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[12:18:17] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[12:18:17] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[12:18:17] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[12:18:17] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[12:18:17] [Server thread/INFO]: Preparing level "world"
-[12:18:17] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[12:18:17] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[12:18:17] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[12:18:17] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[12:18:17] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[12:18:17] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[12:18:17] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[12:18:17] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.6.1
-[12:18:17] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 8687003
-[12:18:17] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[12:18:17] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[12:18:17] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[12:18:17] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[12:18:18] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[12:18:18] [Server thread/INFO]: Preparing spawn area: 0%
-[12:18:19] [Server thread/INFO]: Preparing spawn area: 0%
-[12:18:19] [Server thread/INFO]: Preparing spawn area: 0%
-[12:18:19] [Server thread/INFO]: Time elapsed: 1477 ms
-[12:18:19] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[12:18:19] [Server thread/INFO]: Preparing spawn area: 0%
-[12:18:19] [Server thread/INFO]: Time elapsed: 162 ms
-[12:18:19] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[12:18:19] [Server thread/INFO]: Preparing spawn area: 0%
-[12:18:19] [Server thread/INFO]: Time elapsed: 52 ms
-[12:18:19] [Server thread/INFO]: [voicechat] Enabling voicechat v2.5.27
-[12:18:19] [Server thread/INFO]: [voicechat] Initializing compatibility for Bukkit version 1.21.4-R0.1
-[12:18:19] [Server thread/INFO]: [voicechat] Compatibility version 18
-[12:18:19] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
-[12:18:19] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.36
-[12:18:20] [Server thread/INFO]: [spark] Starting background profiler...
-[12:18:20] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[12:18:20] [Server thread/INFO]: Done preparing level "world" (2.973s)
-[12:18:20] [Server thread/INFO]: Running delayed init tasks
-[12:18:20] [Server thread/INFO]: Done (20.984s)! For help, type "help"
-[12:18:20] [Server thread/INFO]: [voicechat] Loading plugins
-[12:18:20] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
-[12:18:20] [Server thread/INFO]: [voicechat] Initializing plugins
-[12:18:20] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
-[12:18:20] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
-[12:18:20] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
-[12:19:22] [User Authenticator #0/INFO]: UUID of player Fireman6536 is b7d4297b-8fa4-3c98-8492-92bf719b9038
-[12:19:23] [Server thread/INFO]: Fireman6536 joined the game
-[12:19:23] [Server thread/INFO]: Fireman6536[/26.12.185.208:60090] logged in with entity id 97 at ([world]-494.7814625129213, 80.0, -721.9648791855443)
-[12:25:56] [User Authenticator #1/INFO]: UUID of player Tom is bf0eed7b-69fa-3e8f-8083-8eb7d4a7512d
-[12:25:57] [Server thread/INFO]: Tom joined the game
-[12:25:57] [Server thread/INFO]: Tom[/26.196.218.69:50380] logged in with entity id 1496 at ([world]-479.8032603401089, 65.0625, -688.8699984982478)
-[12:34:31] [User Authenticator #2/INFO]: UUID of player ISKpolar is 1b4c1bdf-e0ec-30b0-9318-c17ebff46676
-[12:34:32] [Server thread/INFO]: ISKpolar joined the game
-[12:34:32] [Server thread/INFO]: ISKpolar[/26.29.80.222:50508] logged in with entity id 2814 at ([world]-443.5059120088239, 71.5, -893.4500996413017)
-[12:40:41] [Server thread/INFO]: The difficulty is Normal
-[13:06:42] [Server thread/INFO]: Villager Villager['Villager'/8187, uuid='f7dab9f5-90d8-46ca-b0fd-5dcd01e4b9a7', l='ServerLevel[world]', x=-470.15, y=54.00, z=-752.30, cpos=[-30, -48], tl=25366, v=true] died, message: 'Villager was squished too much'
-[13:09:32] [User Authenticator #3/INFO]: UUID of player Azazel_Dev is b56159c6-1114-3f83-924d-84b90c5cf51f
-[13:09:33] [Server thread/INFO]: Azazel_Dev joined the game
-[13:09:33] [Server thread/INFO]: Azazel_Dev[/[0:0:0:0:0:0:0:1]:52883] logged in with entity id 21434 at ([world]-342.9104575926749, 219.0, -924.2375000119209)
-[13:09:33] [Server thread/INFO]: [voicechat] Received secret request of Azazel_Dev (18)
-[13:09:33] [Server thread/INFO]: [voicechat] Sent secret to Azazel_Dev
-[13:09:34] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player b56159c6-1114-3f83-924d-84b90c5cf51f
-[13:09:35] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player b56159c6-1114-3f83-924d-84b90c5cf51f
-[13:09:35] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Azazel_Dev (b56159c6-1114-3f83-924d-84b90c5cf51f) successfully connected to voice chat
-[13:12:17] [Server thread/INFO]: Villager Villager['Villager'/21, uuid='fc0e0057-116d-4d41-95d9-be74172b6225', l='ServerLevel[world]', x=-447.50, y=69.49, z=-881.17, cpos=[-28, -56], tl=1083146, v=true] died, message: 'Villager hit the ground too hard'
-[13:27:20] [Server thread/INFO]: Villager Villager['Villager'/31, uuid='78717379-e3c5-4811-ac0d-c0116f576832', l='ServerLevel[world]', x=-442.49, y=70.00, z=-891.58, cpos=[-28, -56], tl=440808, v=true] died, message: 'Villager was slain by ISKpolar'
-[13:32:24] [Async Chat Thread - #0/INFO]: [Not Secure] <Fireman6536> :)))
-[13:32:28] [Async Chat Thread - #0/INFO]: [Not Secure] <Tom> (((=
-[13:36:09] [Async Chat Thread - #2/INFO]: [Not Secure] <Azazel_Dev> Nhân
-[13:36:13] [Async Chat Thread - #2/INFO]: [Not Secure] <Azazel_Dev> làm culi ko
-[13:36:13] [Async Chat Thread - #2/INFO]: [Not Secure] <Tom> sao eim
-[13:36:18] [Async Chat Thread - #2/INFO]: [Not Secure] <Tom> oke
-[13:36:23] [Async Chat Thread - #2/INFO]: [Not Secure] <Azazel_Dev> qua nhà t :))
-[13:36:33] [Async Chat Thread - #2/INFO]: [Not Secure] <Azazel_Dev> san bằng đất đai và kiếm chỗ cho đôi ta
-[13:36:58] [Async Chat Thread - #2/INFO]: [Not Secure] <Tom> Nhà lava à
-[13:37:02] [Async Chat Thread - #2/INFO]: [Not Secure] <Azazel_Dev> dr
-[13:37:05] [Async Chat Thread - #2/INFO]: [Not Secure] <Azazel_Dev> ben trai nha lava
-[13:39:02] [Async Chat Thread - #4/INFO]: [Not Secure] <Tom> Sơn tặc
-[13:39:44] [Async Chat Thread - #4/INFO]: [Not Secure] <Azazel_Dev> conquerer
-[13:39:52] [Async Chat Thread - #4/INFO]: [Not Secure] <Tom> Cất bớt đồ phát
-[13:39:59] [Async Chat Thread - #4/INFO]: [Not Secure] <Azazel_Dev> ok
-[13:40:09] [Server thread/INFO]: Azazel_Dev issued server command: /skin set omniman
-[13:40:16] [Server thread/INFO]: Azazel_Dev issued server command: /skin set invincible
-[13:40:27] [Server thread/INFO]: Azazel_Dev issued server command: /skin set markgreyson
-[13:43:05] [Server thread/INFO]: Villager Villager['Librarian'/34, uuid='1ce09cfe-2595-4598-ba33-f94731ea6b9e', l='ServerLevel[world]', x=-444.44, y=68.00, z=-889.48, cpos=[-28, -56], tl=1120059, v=true] died, message: 'Librarian was slain by ISKpolar'
-[13:46:44] [Async Chat Thread - #6/INFO]: [Not Secure] <Azazel_Dev> nhan
-[13:46:45] [Async Chat Thread - #6/INFO]: [Not Secure] <Tom> wtf
-[13:46:45] [Async Chat Thread - #6/INFO]: [Not Secure] <Azazel_Dev> can than
-[13:47:09] [Async Chat Thread - #6/INFO]: [Not Secure] <Azazel_Dev> terrorist with a terrorism
-[13:47:19] [Async Chat Thread - #6/INFO]: [Not Secure] <Tom> K hiệu quả cho lắm (((= toàn lỗ
-[13:47:34] [Async Chat Thread - #6/INFO]: [Not Secure] <Azazel_Dev> t làm mỏng đi tí :))
-[13:54:44] [Async Chat Thread - #8/INFO]: [Not Secure] <Azazel_Dev> pedophile
-[13:54:49] [Async Chat Thread - #8/INFO]: [Not Secure] <Azazel_Dev> pdf
-[13:56:39] [Async Chat Thread - #10/INFO]: [Not Secure] <Tom> md dinh lam gi vs quả đồi này v
-[13:56:58] [Async Chat Thread - #10/INFO]: [Not Secure] <Azazel_Dev> cái nhà kho ấy
-[13:57:07] [Async Chat Thread - #10/INFO]: [Not Secure] <Azazel_Dev> sẵn làm cái chỗ mốt làm metro
-[13:57:29] [Async Chat Thread - #10/INFO]: [Not Secure] <Azazel_Dev> bên kia t làm chỗ máy farm sắt titan
-[13:57:33] [Async Chat Thread - #10/INFO]: [Not Secure] <Azazel_Dev> xong làm phòng lab
-[13:57:43] [Async Chat Thread - #10/INFO]: [Not Secure] <Tom> Đào tới tối may ra đủ bự làm metro a1` (((=
-[13:57:54] [Async Chat Thread - #10/INFO]: [Not Secure] <Azazel_Dev> ko sao
-[13:57:57] [Async Chat Thread - #10/INFO]: [Not Secure] <Azazel_Dev> i got idea
-[14:13:56] [Server thread/INFO]: Villager Villager['Librarian'/36, uuid='e3957ef4-2823-4a92-b9d5-aaa7e932eab5', l='ServerLevel[world]', x=-444.49, y=68.88, z=-888.82, cpos=[-28, -56], tl=1138276, v=true] died, message: 'Librarian was impaled by ISKpolar'
-[14:18:13] [Server thread/INFO]: Fireman6536 lost connection: Disconnected
-[14:18:13] [Server thread/INFO]: [voicechat] Disconnecting client Fireman6536
-[14:18:13] [Server thread/INFO]: Fireman6536 left the game
-[14:18:16] [Async Chat Thread - #12/INFO]: [Not Secure] <Azazel_Dev> t treo may di ngu ti
-[14:18:23] [Server thread/INFO]: Azazel_Dev lost connection: Disconnected
-[14:18:23] [Server thread/INFO]: [voicechat] Disconnecting client Azazel_Dev
-[14:18:23] [Server thread/INFO]: Azazel_Dev left the game
-[14:18:33] [Server thread/INFO]: ISKpolar lost connection: Disconnected
-[14:18:33] [Server thread/INFO]: [voicechat] Disconnecting client ISKpolar
-[14:18:33] [Server thread/INFO]: ISKpolar left the game
-[15:20:40] [Server thread/INFO]: Tom lost connection: Disconnected
-[15:20:40] [Server thread/INFO]: [voicechat] Disconnecting client Tom
-[15:20:40] [Server thread/INFO]: Tom left the game
-[15:43:18] [Server thread/INFO]: Stopping the server
-[15:43:18] [Server thread/INFO]: Stopping server
-[15:43:18] [Server thread/INFO]: [Chunky] Disabling Chunky v1.4.36
-[15:43:18] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.6.1
-[15:43:18] [Server thread/INFO]: [voicechat] Disabling voicechat v2.5.27
-[15:43:18] [Server thread/INFO]: Saving players
-[15:43:18] [Server thread/INFO]: Saving worlds
-[15:43:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[15:43:18] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[15:43:18] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[15:43:18] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[15:43:18] [Server thread/INFO]: [ChunkHolderManager] Saved 3 block chunks, 178 entity chunks, 0 poi chunks in world 'world' in 0.06s
-[15:43:18] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[15:43:18] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[15:43:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[15:43:18] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[15:43:18] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[15:43:18] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[15:43:19] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 7 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
-[15:43:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[15:43:19] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[15:43:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[15:43:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[15:43:19] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[15:43:19] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[15:43:19] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
-[15:43:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[15:43:19] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[15:43:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[15:43:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[15:43:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[15:43:19] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[15:43:19] [Server thread/INFO]: Waiting for I/O tasks to complete...
-[15:43:19] [Server thread/INFO]: All I/O tasks to complete
-[15:43:19] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[15:43:19] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[00:00:10] [Server thread/INFO]: Villager Villager['Villager'/20, uuid='7a29c89c-570b-4e8e-910c-cb435cb38331', l='ServerLevel[world]', x=-470.16, y=54.00, z=-752.70, cpos=[-30, -48], tl=360655, v=true] died, message: 'Villager was squished too much'
+[00:26:23] [Server thread/INFO]: Fireman6536 has made the advancement [Cover Me with Diamonds]
+[00:32:18] [Server thread/INFO]: Villager Villager['Villager'/50, uuid='d1e7fce2-4f70-4b21-b003-035a312ab8f7', l='ServerLevel[world]', x=-470.21, y=54.00, z=-752.30, cpos=[-30, -48], tl=1321509, v=true] died, message: 'Villager was squished too much'
+[00:34:21] [Async Chat Thread - #0/INFO]: [Not Secure] <Fireman6536> cat long lon
+[00:35:55] [Server thread/INFO]: Villager Villager['Villager'/40, uuid='be0bc1f4-db31-4846-b317-cea818c86f22', l='ServerLevel[world]', x=-470.70, y=54.00, z=-752.30, cpos=[-30, -48], tl=365349, v=true] died, message: 'Villager was squished too much'
+[00:46:03] [Server thread/INFO]: Azazel_Dev lost connection: Disconnected
+[00:46:03] [Server thread/INFO]: [voicechat] Disconnecting client Azazel_Dev
+[00:46:03] [Server thread/INFO]: Azazel_Dev left the game
+[00:46:06] [Server thread/INFO]: Fireman6536 lost connection: Disconnected
+[00:46:06] [Server thread/INFO]: [voicechat] Disconnecting client Fireman6536
+[00:46:06] [Server thread/INFO]: Fireman6536 left the game
+[00:46:08] [Server thread/INFO]: Stopping the server
+[00:46:09] [Server thread/INFO]: Stopping server
+[00:46:09] [Server thread/INFO]: [Chunky] Disabling Chunky v1.4.36
+[00:46:09] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.6.1
+[00:46:09] [Server thread/INFO]: [voicechat] Disabling voicechat v2.5.27
+[00:46:09] [Server thread/INFO]: Saving players
+[00:46:09] [Server thread/INFO]: Saving worlds
+[00:46:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[00:46:09] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[00:46:09] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[00:46:09] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[00:46:09] [Server thread/INFO]: [ChunkHolderManager] Saved 43 block chunks, 247 entity chunks, 0 poi chunks in world 'world' in 0.10s
+[00:46:09] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[00:46:09] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[00:46:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[00:46:09] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[00:46:09] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[00:46:09] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[00:46:09] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 7 entity chunks, 0 poi chunks in world 'world_nether' in 0.02s
+[00:46:09] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[00:46:09] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[00:46:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[00:46:09] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[00:46:09] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[00:46:09] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[00:46:09] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[00:46:09] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[00:46:09] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[00:46:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:46:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:46:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:46:09] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[00:46:09] [Server thread/INFO]: Waiting for I/O tasks to complete...
+[00:46:09] [Server thread/INFO]: All I/O tasks to complete
+[00:46:09] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[00:46:09] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
