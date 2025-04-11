@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: ''
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1744389628711
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1744394741768
+  login: 0
+money: '0'
+nickname: SexGay69
+lastlocation:
+  world: 8b41ca65-74c6-47a7-8a84-4df77ade53ca
+  world-name: world_nether
+  x: -9.58995423282191
+  y: 39.0
+  z: -132.69999998807907
+  yaw: -70.262451171875
+  pitch: -62.9997444152832
+logoutlocation:
+  world: cd44a66b-df06-4524-8ef1-cae4b2586f39
+  world-name: world
+  x: -379.2148769618224
+  y: 42.0
+  z: -650.461297428543
+  yaw: -86.83740234375
+  pitch: 1.0496643781661987

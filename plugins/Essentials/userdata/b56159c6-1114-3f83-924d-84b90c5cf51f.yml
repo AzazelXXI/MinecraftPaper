@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: ''
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1744393298834
+  login: 0
+money: '0'
+nickname: Invincible
+logoutlocation:
+  world: cd44a66b-df06-4524-8ef1-cae4b2586f39
+  world-name: world
+  x: -281.46758974774843
+  y: 65.0
+  z: -945.5832696296529
+  yaw: 11.935302734375
+  pitch: 18.16597557067871
